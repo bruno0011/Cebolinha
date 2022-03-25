@@ -3,4 +3,4 @@
 Console.Write("Digite sua frase:  ");
 fraseDigitada = Console.ReadLine()!;
 
-Console.WriteLine(fraseDigitada.Replace("r","l"));
+Console.WriteLine(fraseDigitada.Replace("r","l").Replace("R","L"));
